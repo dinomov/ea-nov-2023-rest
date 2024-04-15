@@ -20,7 +20,7 @@ public class StudentController {
     }
 
     @GetMapping
-    @RequestMapping(method = RequestMethod.GET)
+    @GetMapping
     public List<Student> getAll() {
         return studentService.findAll();
     }
